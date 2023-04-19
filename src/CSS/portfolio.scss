@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+
+.portfolio-stuff {
+  display: block;
+  position: fixed;
+  margin-left: 27%;
+  padding: 2vh 1vw;
+  align-self: center;
+
+  scroll-behavior: smooth;
+  overflow-x: none;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+
+  text-align: center;
+  color: grey;
+
+  background: white;
+  width: 40vw;
+  height: 65vh;
+  
+
+};
+
+.about-me-stuff body {
+  height: 50vh;
+  padding: 2vh;
+}
