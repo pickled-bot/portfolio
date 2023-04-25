@@ -25,7 +25,7 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
-          <section className="portfolio-stuff">
+            <section className="portfolio-stuff">
             <h1>portfolio</h1>
             <body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Viverra tellus in hac habitasse platea. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Imperdiet sed euismod nisi porta lorem. Amet venenatis urna cursus eget nunc scelerisque. Euismod lacinia at quis risus sed vulputate odio ut. Accumsan tortor posuere ac ut consequat semper. Elit sed vulputate mi sit amet mauris commodo quis. Et netus et malesuada fames ac. Maecenas volutpat blandit aliquam etiam erat velit.
@@ -34,7 +34,8 @@ Ipsum nunc aliquet bibendum enim facilisis gravida neque. Tristique et egestas q
 
 Est ullamcorper eget nulla facilisi. Sagittis nisl rhoncus mattis rhoncus urna. Egestas congue quisque egestas diam in. Risus ultricies tristique nulla aliquet enim tortor. Feugiat scelerisque varius morbi enim nunc. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Sagittis orci a scelerisque purus semper eget duis. Duis at tellus at urna condimentum. Diam maecenas sed enim ut sem. Sed faucibus turpis in eu mi bibendum neque egestas congue.
             </body>
-          </section>
-          </div>
+            <p>find additional art at <a href="https://sherbot.page/art">sherbot.page</a></p>
+            </section>
+        </div>
     )
 }
