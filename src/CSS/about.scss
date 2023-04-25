@@ -7,6 +7,50 @@
   width: 100%;
 }
 
+li {
+  list-style-type: none;
+  text-align: left;
+  line-height: 90%;
+  border: none;
+  text-decoration: none;
+}
+
+h3 {
+  padding-top: 15%;
+}
+
+.portrait {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5%;
+  padding-top: 0%;
+}
+
+.languages li {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  border: 1px, black, solid;
+  border-radius: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 10em;
+  margin: 0.5em;
+  font-size: 1em;
+  margin-right: 15%;
+}
+
+.languages li:hover {
+  background-color: darkmagenta;
+  color: whitesmoke;
+
+}
 
 .about-me-stuff {
   display: block;

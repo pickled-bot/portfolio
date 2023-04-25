@@ -35,7 +35,7 @@ body{
         transition: 1s;
     }
 
-    ul li a {
+    .navbar ul li a {
         margin-right: 1em;
         height: auto;
         align-items: center;
@@ -52,7 +52,7 @@ body{
 
     }
 
-    li a:hover {
+    .navbar li a:hover {
         background-color: pink;
     }
 
@@ -92,11 +92,11 @@ body{
         align-items: center;
     }
 
-    ul>li:nth-child(1){
+    .navbar ul>li:nth-child(1){
         margin-top: 5rem;
     }
 
-    ul>li{
+    .navbar ul>li{
         align-self: center;
         border-bottom: 1px solid gray;
         width: 103%;
@@ -105,7 +105,7 @@ body{
         text-align: justify-self;
     }
 
-    ul> li a:hover {
+    .navbar ul> li a:hover {
         background-color: pink;
         border-radius: 100%;
     }
