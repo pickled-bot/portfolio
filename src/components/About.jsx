@@ -34,11 +34,11 @@ export default function About() {
               <ul>
               <li>&rarr; Full-Stack Software Engineer 💻</li>
               <li>&rarr; Trained at Ada Developer's Academy || C17 </li>
-              <li>&rarr; BSc in Marine Biology || Mathematics || PreMedical </li>
+              <li>&rarr; BSc in Marine Biology || Mathematics || PreMed Concentration </li>
               <li>&rarr; Based in Seattle, Wa </li>
               <li className='hireme'>&rarr; OPEN TO HIRE </li>
               </ul>
-              <h3>languages &amp; technologies</h3>
+              <h3>Languages &amp; Technologies</h3>
               <ul className='languages'>
                 <li>JavaScript</li>
                 <li>TypeScript</li>
