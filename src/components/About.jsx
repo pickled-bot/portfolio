@@ -32,8 +32,11 @@ export default function About() {
             </span>
             <p>
               <ul>
-              <li> &rarr; full-stack web developer 💻</li>
-              <li>&rarr; open to hire </li>
+              <li>&rarr; Full-Stack Software Engineer 💻</li>
+              <li>&rarr; Trained at Ada Developer's Academy || C17 </li>
+              <li>&rarr; BSc in Marine Biology || Mathematics || PreMedical </li>
+              <li>&rarr; Based in Seattle, Wa </li>
+              <li className='hireme'>&rarr; OPEN TO HIRE </li>
               </ul>
               <h3>languages &amp; technologies</h3>
               <ul className='languages'>

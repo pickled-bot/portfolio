@@ -10,7 +10,7 @@
 li {
   list-style-type: none;
   text-align: left;
-  line-height: 90%;
+  line-height: 95%;
   border: none;
   text-decoration: none;
 }
@@ -38,8 +38,8 @@ h3 {
   text-align: center;
   border: 1px, black, solid;
   border-radius: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   width: 10em;
   margin: 0.5em;
   font-size: 1em;
@@ -49,7 +49,12 @@ h3 {
 .languages li:hover {
   background-color: darkmagenta;
   color: whitesmoke;
+  border: 1px, whitesmoke, solid;
 
+}
+
+.hireme {
+  font-weight: bold;
 }
 
 .about-me-stuff {
