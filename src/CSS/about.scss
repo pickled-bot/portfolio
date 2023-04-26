@@ -16,34 +16,41 @@ li {
 }
 
 h3 {
-  padding-top: 15%;
+  padding-top: 2vh;
+  padding-left: 10%;
 }
 
 .portrait {
-  width: 32%;
-  height: 32%;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 }
 
+.intro {
+  padding-top: 5vh;
+}
+
 .languages {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 5%;
-  padding-top: 0%;
+  display: flex;
+    // want to create a grid of 3 columns that overflow into a new row if screen is too small
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
 }
 
 .languages li {
   background-color: pink;
   color: black;
   text-align: center;
-  border: 1px, black, solid;
+  border: 1px black solid;
   border-radius: 1em;
-  padding-top: 0.75em;
-  padding-bottom: 0.75em;
-  width: 10em;
-  margin: 0.5em;
-  font-size: 1em;
-  margin-right: 15%;
+  padding: 0.5em;
+  margin: 0.1em;
+  width: 10vw;
+  font-size: min(0.5vw + 1vmin);
 }
 
 .languages li:hover {
@@ -60,7 +67,7 @@ h3 {
 .about-me-stuff {
   display: block;
   position: fixed;
-  margin-left: 27%;
+  margin-left: 25%;
   padding: 2vh 1vw;
   align-self: center;
 
@@ -73,11 +80,9 @@ h3 {
   color: grey;
 
   background: white;
-  width: 40vw;
+  width: max(42%);
   height: 65vh;
-  
-
-};
+}
 
 .about-me-stuff body {
   height: 50vh;

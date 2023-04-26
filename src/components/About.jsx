@@ -31,7 +31,7 @@ export default function About() {
               <img src={portrait} alt='Shelby Faulconer pixel icon' className='portrait' />
             </span>
             <p>
-              <ul>
+              <ul className='intro'>
               <li>&rarr; Full-Stack Software Engineer 💻</li>
               <li>&rarr; Trained at Ada Developer's Academy || C17 </li>
               <li>&rarr; BSc in Marine Biology || Mathematics || PreMed Concentration </li>

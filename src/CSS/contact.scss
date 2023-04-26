@@ -11,7 +11,7 @@
 .contact-stuff {
   display: block;
   position: fixed;
-  margin-left: 27%;
+  margin-left: 25%;
   padding: 2vh 1vw;
   align-self: center;
 
@@ -24,11 +24,9 @@
   color: grey;
 
   background: white;
-  width: 40vw;
+  width: max(42%);
   height: 65vh;
-  
-
-};
+}
 
 .about-me-stuff body {
   height: 50vh;
