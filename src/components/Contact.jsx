@@ -1,8 +1,9 @@
 import '../CSS/hero.scss'
 import '../CSS/contact.scss'
 import ReactTypingEffect from 'react-typing-effect';
-import Box from './3dBox';
-import {Canvas} from "@react-three/fiber"
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.svg';
+import email from '../assets/email.png';
 
 export default function Contact() {
     return (
@@ -25,12 +26,14 @@ export default function Contact() {
               </div>
           </div>
           <section className="contact-stuff">
-            <h1>contact</h1>
+            <h1>Contact</h1>
             <body>
+              <p>I encourage you to reach out to me for prospective work or any questions:</p>
+              <p className="contact-list-link"><a href="https://www.linkedin.com/in/shelbyfaul">LinkedIn</a> || <a href="https://www.github.com/pickled-bot">Github</a> || <a href="mailto:faulconershelby@gmail.com">Email</a></p>
               <ul>
-                <li  className="contact-list"><a href="https://www.linkedin.com/in/shelbyfaul">LinkedIn</a></li>
-                <li  className="contact-list"><a href="https://www.github.com/pickled-bot">GitHub</a></li>
-                <li  className="contact-list"><a href="mailto:faulconershelby@gmail.com">Email</a></li>
+                <li  className="contact-list-item"><a href="https://www.linkedin.com/in/shelbyfaul"><img src={linkedin} alt='LinkedIn Logo'/></a></li>
+                <li  className="contact-list-item"><a href="https://www.github.com/pickled-bot"><img src={github} alt="Github Logo" /></a></li>
+                <li  className="contact-list-item"><a href="mailto:faulconershelby@gmail.com"><img src={email} alt="Email Envelope Logo" /></a></li>
               </ul>
             </body>
           </section>

@@ -54,7 +54,7 @@ h3 {
 }
 
 .languages li:hover {
-  background-color: darkmagenta;
+  background-color: black;
   color: whitesmoke;
   border: 1px, whitesmoke, solid;
 
@@ -82,6 +82,9 @@ h3 {
   background: white;
   width: max(42%);
   height: 65vh;
+
+  font-family: 'Didact Gothic', sans-serif;
+
 }
 
 .about-me-stuff body {

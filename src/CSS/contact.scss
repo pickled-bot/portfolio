@@ -7,7 +7,6 @@
   width: 100%;
 }
 
-
 .contact-stuff {
   display: block;
   position: fixed;
@@ -25,13 +24,53 @@
 
   background: white;
   width: max(42%);
-  height: 65vh;
+  height: 35vh;
+
+  font-family: 'Didact Gothic', sans-serif;
+
 }
 
-.contact-list {
-  line-height: 115%;
-  text-decoration: none;
+.contact-stuff p {
+  margin-top: 5%;
+  width: 75%;
+  margin-left: 15%;
+}
 
+.contact-stuff ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-list-item img {
+  width: 5vw;
+  margin: 1vw;
+}
+
+.contact-list-link a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.contact-list-link a:active{
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.contact-list-link a:hover{
+  text-decoration: underline double;
+  color: pink;
+  font-size: 1.25rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.contact-list-item a:hover{
+  color:#94bbe9;
 }
 
 .about-me-stuff body {
