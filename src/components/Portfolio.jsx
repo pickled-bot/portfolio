@@ -49,6 +49,7 @@ export default function Portfolio() {
                 <span> <a href="https://github.com/pickled-bot/shelby-silverstein-fixed">Github</a> </span>
                 <p className="technologies">Python, TensorFlow Keras </p>
                 <img src={shelby_silverstein} alt="Shelby Silverstein Language Model Python output" />
+                <img src={shelby_silverstein_2} alt="Shelby Silverstein Language Model Python output" />
                 <h4>Image Model</h4>
                 <p>A model trained to generate images based on mathematical anomoly.</p>
                 <span><a href="https://github.com/pickled-bot/image-model">Github</a> </span>

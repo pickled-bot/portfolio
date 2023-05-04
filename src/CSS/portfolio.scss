@@ -31,6 +31,26 @@
 
 }
 
+.portfolio-items a{
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.portfolio-items a:active{
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.portfolio-items a:hover{
+  text-decoration: underline double;
+  color: pink;
+  font-size: 1.25rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
 .about-me-stuff body {
   height: 50vh;
   padding: 2vh;
