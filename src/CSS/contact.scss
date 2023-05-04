@@ -24,7 +24,7 @@
 
   background: white;
   width: max(42%);
-  height: 35vh;
+  height: 45vh;
 
   font-family: 'Didact Gothic', sans-serif;
 
@@ -73,7 +73,7 @@
   color:#94bbe9;
 }
 
-.about-me-stuff body {
-  height: 50vh;
-  padding: 2vh;
+.contact-stuff body {
+  height: 100%;
+  overflow-y: contain;
 }

@@ -34,6 +34,7 @@ export default function About() {
               <ul className='intro'>
               <li>&rarr; Full-Stack Software Engineer 💻</li>
               <li>&rarr; Trained at Ada Developer's Academy || C17 </li>
+              <li>&rarr; BSc from Alaska Pacific University || 2016 Graduate </li>
               <li>&rarr; BSc in Marine Biology || Mathematics || PreMed Concentration </li>
               <li>&rarr; Based in Seattle, Wa </li>
               <li className='hireme'>&rarr; OPEN TO HIRE </li>
