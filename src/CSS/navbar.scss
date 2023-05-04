@@ -17,7 +17,7 @@ body{
         padding-left: 1rem;
         padding-right: 1rem;
         margin-right: 2rem;
-        margin-top: 2rem;
+        margin-top: 3%;
 
         font-family: 'Didact Gothic', sans-serif;
         font-size: (1vh+2vh);
@@ -35,24 +35,24 @@ body{
         display: grid;
         grid-template-columns: repeat( 6 , 1fr);
         justify-self: end;
-        margin-top: 2em;
+        margin-top: 1%;
         transition: 1s;
         height: 10vh;
     }
 
     .navbar ul li a {
         overflow: contain;
-        margin-right: 1em;
+        // margin-right: 2rem;
         align-items: center;
         text-align: center ; 
-        line-height: 4em;
+        line-height: 5rem;
         transition: 1s;
-        font-size: (max(1vw) +1vw);
+        font-size: (max(1.5vw) +1vw);
         text-decoration: none;
         color: black;
         display:block;
-        width: 4em;
-        height: 4em;
+        width: 6rem;
+        height: 5.5rem;
     }
 
     .navbar li a:hover {
