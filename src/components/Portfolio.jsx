@@ -29,7 +29,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <section className="portfolio-stuff">
-            <h1>portfolio</h1>
+            <h1>Portfolio</h1>
             <p className="portfolio-items">
                 <h4>Portfolio</h4>
                 <span><a href="https://shelbyfaulconer.vercel.app">Deployment</a> || <a href="https://github.com/pickled-bot/portfolio">Github</a> </span>
