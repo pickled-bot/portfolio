@@ -33,26 +33,27 @@ body{
         list-style: none;
         overflow: fixed;
         display: grid;
-        grid-template-columns: repeat( 6 , 1fr);
+        grid-template-columns: repeat( 4 , 1fr);
         justify-self: end;
         margin-top: 1%;
         transition: 1s;
+        margin-right: 2rem;
         height: 10vh;
     }
 
     .navbar ul li a {
         overflow: contain;
-        // margin-right: 2rem;
         align-items: center;
         text-align: center ; 
         line-height: 5rem;
-        transition: 1s;
-        font-size: (max(1.5vw) +1vw);
+        margin-bottom: 1vh;
+        transition: 0.8s;
+        font-size: (max(1rem) +.5rem);
         text-decoration: none;
         color: black;
         display:block;
-        width: 6rem;
-        height: 5.5rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .navbar li a:hover {
